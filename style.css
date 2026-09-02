@@ -178,7 +178,7 @@ nav {
 }
 
 .hero h1 {
-    font-size: clamp(3.6rem, 9vw, 5.2rem);
+    font-size: clamp(4rem, 7vw, 6rem);
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.03em;
