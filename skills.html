@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Card</title>
+    <style>
+        
+        /* Reset margins and make body fill the screen */
+        body 
+        {
+            margin: 0;
+        }
+
+        /* The container must wrap the card and have height */
+        .container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically */
+            height: 100vh;           /* Takes 100% of the viewport height */
+            background-color: #f0f0f0; /* Optional: background to see the card clearly */
+        }
+
+        /* The card design */
+        .card {
+            background: rgb(78, 182, 223);
+            width: 310px;
+            height: 110px;
+            box-shadow: black;
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The card must go INSIDE the container -->
+    <div class="container">
+        <div class="card"></div>
+        <input type="text" placeholder="Type...">
+    </div>
+
+</body>
+</html>
